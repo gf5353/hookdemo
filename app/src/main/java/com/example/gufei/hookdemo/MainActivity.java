@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
         hookOnClickListener(textView);
     }
 
-
+    //java 反射实现hook
     private void hookOnClickListener(View view) {
         try {
             // 得到 View 的 ListenerInfo 对象
